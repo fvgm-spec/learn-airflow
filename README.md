@@ -2,9 +2,13 @@
 
 This repository is intended to store information regarding Airflow settings and tutorials.
 
-### Quick start book:
+## Quick start book:
 
 * [Data_Pipelines_with_Apache_Airflow](https://biconsult.ru/files/Data_warehouse/Bas_P_Harenslak%2C_Julian_Rutger_de_Ruiter_Data_Pipelines_with_Apache.pdf)
+
+## Airflow Official Documentation
+
+[Apache_Airflow](https://airflow.apache.org/docs/apache-airflow/stable/index.html)
 
 ### First steps
 
@@ -70,19 +74,19 @@ with DAG(dag_id="hello_world_dag",
 task1
 ```
 
-What does the code step by step:
+### What does the code step by step
 
-Import Statements:
+1. Import Statements:
 
 `from airflow import DAG`: Import the DAG class, which is the main building block for creating Airflow workflows.
 `from airflow.operators.python import PythonOperator`: Import the PythonOperator, which is a type of operator that allows you to execute arbitrary Python functions as tasks in your DAG.
 `from datetime import datetime`: Import the datetime class to specify the start date for the DAG.
 
-Defining the Python Function:
+2. Defining the Python Function:
 
 `def helloWorld()`: Define a Python function called **helloWorld**. This function will be executed as a task in the DAG and will print `"Hello World"` to the console when called.
 
-Creating a DAG:
+3. Creating a DAG:
 
 `with DAG(dag_id="hello_world_dag"`, `start_date=datetime(2023, 1, 1)`, `schedule_interval="@hourly"`, `catchup=False) as dag`: Create a new DAG with the following parameters:
 * `dag_id`: Assign the DAG a unique identifier, in this case, "hello_world_dag".
@@ -90,15 +94,13 @@ Creating a DAG:
 * `schedule_interval`: Set the schedule interval for the DAG. In this case, it's set to "@hourly," which means the DAG will run once every hour.
 * `catchup`: Set to False, indicating that the DAG will not backfill or "catch up" on missed runs. It will only run tasks for the current schedule interval.
 
-Creating a PythonOperator Task:
+4. Creating a PythonOperator Task:
 
 `task1` = PythonOperator(task_id="hello_world", python_callable=helloWorld): Create a PythonOperator task named "hello_world." This task will execute the helloWorld function when it runs. The python_callable parameter specifies the Python function to be executed.
 
-Returning the Task:
+5. Returning the Task:
 
 `task1`: This line doesn't create a new task but assigns the PythonOperator task to the task1 variable for reference.
 
 In summary, this code defines a simple Airflow DAG called "hello_world_dag" that runs a single task named "hello_world" hourly. The task, when executed, calls the helloWorld Python function, which prints "Hello World" to the console. This DAG can be added to an Airflow environment and scheduled to run at the specified intervals.
-
-
 
