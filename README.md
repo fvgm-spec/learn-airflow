@@ -8,7 +8,7 @@ This repository is intended to store information regarding Airflow settings and 
 
 ## Airflow Official Documentation
 
-[Apache_Airflow](https://airflow.apache.org/docs/apache-airflow/stable/index.html)
+* [Apache_Airflow](https://airflow.apache.org/docs/apache-airflow/stable/index.html)
 
 ### First steps
 
