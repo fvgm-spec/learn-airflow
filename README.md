@@ -10,6 +10,10 @@ This repository is intended to store information regarding Airflow settings and 
 
 * [Apache_Airflow](https://airflow.apache.org/docs/apache-airflow/stable/index.html)
 
+## Airflow GitHub Repo
+
+* [GitHub Repo](https://github.com/BasPH/data-pipelines-with-apache-airflow/tree/master)
+
 ### First steps
 
 Installing Airflow in WSL2
