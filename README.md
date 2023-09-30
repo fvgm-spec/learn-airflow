@@ -34,7 +34,7 @@ Installing Airflow in WSL2
   Installing Airflow in virtual environment
   ![installairflow](img/installing_airflow.png)
 
-* Create an Airflow User: In this step you'll need to create a user. This user will be used to login into the Airflow UI and perform some admin functions. Run the following in your command line
+* Create an Airflow User: In this step you'll need to create a user. This user will be used to login into the Airflow UI and perform some admin functions. Run the following in your command line:
   
   ```bash
     airflow users create \
@@ -43,6 +43,12 @@ Installing Airflow in WSL2
       --lastname LAST_NAME \
       --role Admin \
       --email admin@example.org
+  ```
+
+A one liner version would be as follows:
+
+  ```bash
+    airflow users create --username Admin --firstname Felix --lastname Gutierrez --role Admin --email felixvidalgu@gmail.com
   ```
 
   Now check that the user was created `airflow users list` 
