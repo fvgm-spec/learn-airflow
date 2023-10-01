@@ -53,8 +53,8 @@ This DAG is designed to automate the process of fetching information about trend
 
  <p>
 <div class="column">
-    <img src="img/4Q56IatK3JDRkYWXTs29vp7RECZ.jpg" style="height: 25rem"/>
-    <img src="img/51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg" style="height: 25rem"/>
+    <img src="img/4Q56IatK3JDRkYWXTs29vp7RECZ.jpg" style="height: 15rem"/>
+    <img src="img/51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg" style="height: 15rem"/>
   </div>
  </p>
 
