@@ -86,7 +86,6 @@ task1
 
 The above code needs to be created inside the `dags` folder of the directory where you clone this repo. The name of the root directory can be left as it is `learn-airflow` or can also be renamed to `airflow` so the directory tree should be:
 
-  Airflow tree
   ![airflow_directory](img/airflow_directory.png)
 
 At least you should have the `dags` folder created in your `airflow` directory, the rest of rhe configurtion and db files will be automatically created when running `airfolw init db` and when you start the scheduler and the webserver with the commands `airflow scheduler` and `airflow webserver`.
