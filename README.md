@@ -23,10 +23,8 @@ Installing Airflow in WSL2
 * Then activate your environment by running `conda activate airflow`
 * Set Up the Airflow Directory: Create the folder called **airflow** in your home directory by running `mkdir airflow`, then set that directory into your env variables by `nano ~/.bashrc`, in the last line of that file include `AIRFLOW_HOME=/home/[YourUsername]/airflow`, then press Ctrl+X and save changes, then source them `source ~/.bashrc` in order to set the changes in the **bashrc** file, after that in order to check that the env variable was set successfully just run `cd $AIRFLOW_HOME` like in the screeshot bellow.
    
-  Adding AIRFLOW_HOME to bashrc
   ![bashrc](img/bashrc.png)
 
-  Checking that the env variable was set successfully
   ![airflowhome](img/airflow_home.png)
   
 * Install Apache Airflow: In order to install airflow in your virtual environment run `pip install apache-airflow`, but before that check that you are under the conda virtual env, then you will need to initialize the database by running `airflow db init` . After that you will need to create a folder called **dags** in your airflow directory, this folder will store your airflow [dags](https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html) that just definesthwe Tasks and dictates the order in which they have to run, generally are python scripts.
