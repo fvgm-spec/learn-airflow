@@ -53,8 +53,15 @@ This DAG is designed to automate the process of fetching information about trend
 
  <p>
 <div class="column">
+    <img src="img/1LhziFOxOyAiDjaTw2ru5iYSrYM.jpg" style="height: 15rem"/>
     <img src="img/4Q56IatK3JDRkYWXTs29vp7RECZ.jpg" style="height: 15rem"/>
+    <img src="img/29WJ7dOHt48AtXK1J1rONEEvIMN.jpg" style="height: 15rem"/>
     <img src="img/51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg" style="height: 15rem"/>
+    <img src="img/A4LTXT8MMZIr4aIwhE4qbGFivBo.jpg" style="height: 15rem"/>
+    <img src="img/AdcXd3zgbtoo2EDn3ymp35gdZoH.jpg" style="height: 15rem"/>
+    <img src="img/aQPeznSu7XDTrrdCtT5eLiu52Yu.jpg" style="height: 15rem"/>
+    <img src="img/cAn1tvopkqATQ0AfV4LK08ReAvp.jpg" style="height: 15rem"/>
+    <img src="img/dfS5qHWFuXyZQnwYREwb7N4qU5p.jpg" style="height: 15rem"/>
   </div>
  </p>
 
