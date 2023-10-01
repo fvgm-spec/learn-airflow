@@ -1,5 +1,6 @@
 # Import necessary modules and libraries
-# Documentation of pageview format: https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Traffic/Pageviews
+# Documentation of TMDB: https://developer.themoviedb.org/reference/intro/getting-started
+
 import requests
 import requests.exceptions as requests_exceptions
 import os
@@ -91,4 +92,4 @@ get_posters = PythonOperator(
     dag=dag
 )
 
-create_folders >> get_movies >> get_posters
+create_folder[[[](https://developer.themoviedb.org/docs/getting-started)](https://developer.themoviedb.org/docs/getting-started)](https://developer.themoviedb.org/docs/getting-started)
