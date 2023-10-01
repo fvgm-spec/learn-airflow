@@ -62,6 +62,9 @@ This DAG is designed to automate the process of fetching information about trend
     <img src="img/aQPeznSu7XDTrrdCtT5eLiu52Yu.jpg" style="height: 15rem"/>
     <img src="img/cAn1tvopkqATQ0AfV4LK08ReAvp.jpg" style="height: 15rem"/>
     <img src="img/dfS5qHWFuXyZQnwYREwb7N4qU5p.jpg" style="height: 15rem"/>
+    <img src="img/efPRTvNLdwnMVy7E4rZmEma7sja.jpg" style="height: 15rem"/>
+    <img src="img/ehGIDAMaYy6Eg0o8ga0oqflDjqW.jpg" style="height: 15rem"/>
+    <img src="img/evgEvYCUGidCyUCxA77EUJiWpVQ.jpg" style="height: 15rem"/>
   </div>
  </p>
 
