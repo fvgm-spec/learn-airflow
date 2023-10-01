@@ -86,15 +86,10 @@ task1
 
 The above code needs to be created inside the `dags` folder of the directory where you clone this repo. The name of the root directory can be left as it is `learn-airflow` or can also be renamed to `airflow` so the directory tree should be:
 
-airflow
+Airflow tree
 
-README.md
-airflow-webserver.pid
-airflow.cfg
-airflow.db
-webserver_config.py
-|--dags
-|--img
+  Checking that the user was created
+  ![airflow_directory](img/airflow_directory.png)
 
 
 ### What does the code step by step
