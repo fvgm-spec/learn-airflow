@@ -12,7 +12,7 @@ Here a basic DAG is created that runs in an hourly basis by executing a `helowor
 
 ### **reading_pageviews.py**
 
-This [sample DAG](https://github.com/BasPH/data-pipelines-with-apache-airflow/blob/master/chapter04/dags/listing_4_20.py) is introduced in the book from *Bas Hareslak - Data Pipelines with Airflow* aka. The Airflow Bible.
+This [sample DAG](https://github.com/BasPH/data-pipelines-with-apache-airflow/blob/master/chapter04/dags/listing_4_20.py) is introduced in the book from *Bas Harenslak & Julian de Ruiter - Data Pipelines with Airflow* aka. The Airflow Bible.
 
 This dag basically performs the following steps:
 
