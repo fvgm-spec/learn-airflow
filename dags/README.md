@@ -4,13 +4,13 @@
 
 Inside this folder you will find some sample dags made to be executed in te Airflow server, you just need to create a conda environment following the steps detailed in the main [README file](https://github.com/fvgm-spec/learn-airflow/blob/main/README.md) of this repo.
 
-**hello_world_dag.py**
+### **hello_world_dag.py**
 
 This dag corresponds to the `hello_world` sample in every programming languague, which is the first code executed to start learning the basics.
 
 Here a basic DAG is created that runs in an hourly basis by executing a `heloworld` function.
 
-**reading_pageviews.py**
+### **reading_pageviews.py**
 
 This [sample DAG](https://github.com/BasPH/data-pipelines-with-apache-airflow/blob/master/chapter04/dags/listing_4_20.py) is introduced in the book from *Bas Hareslak - Data Pipelines with Airflow* aka. The Airflow Bible.
 
@@ -46,3 +46,7 @@ This Apache Airflow DAG, named "read_wiki_pages," is designed to automate the pr
      - `get_data` >> `extract_gz` >> `fetch_pageviews` >> `write_to_postgres`
 
 This DAG is designed to automate the process of fetching, processing, and storing Wikipedia pageview data, making it a useful tool for data pipeline automation in an Airflow environment.
+
+### **getting_movies.py**
+
+
