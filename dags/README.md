@@ -22,6 +22,8 @@ Here a basic DAG is created that runs in an hourly basis by executing a `helowor
 
 ### **reading_pageviews.py**
 
+</summary>
+
 This [sample DAG](https://github.com/BasPH/data-pipelines-with-apache-airflow/blob/master/chapter04/dags/listing_4_20.py) is introduced in the book from *Bas Harenslak & Julian de Ruiter - Data Pipelines with Airflow* aka. The Airflow Bible.
 
 This dag basically performs the following steps:
@@ -56,6 +58,11 @@ This Apache Airflow DAG, named "read_wiki_pages," is designed to automate the pr
      - `get_data` >> `extract_gz` >> `fetch_pageviews` >> `write_to_postgres`
 
 This DAG is designed to automate the process of fetching, processing, and storing Wikipedia pageview data, making it a useful tool for data pipeline automation in an Airflow environment.
+
+</details>
+
+<details>
+<summary>
 
 ### **getting_movies.py**
 
