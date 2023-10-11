@@ -85,6 +85,7 @@ This DAG is designed to automate the process of fetching information about trend
   </div>
  </p>
 
+Step-by-step explanation of the DAG's functionality:
 
 1. **Import Necessary Modules and Libraries**:
    - The code starts by importing various modules and libraries, including `requests` for making HTTP requests to the TMDb API, `pathlib` for handling file paths, and Airflow components (`DAG`, `BashOperator`, `PythonOperator`, `Variable`).
@@ -117,4 +118,3 @@ This DAG is designed to automate the process of fetching information about trend
      - `create_folders` >> `get_movies` >> `get_posters`
 
 The output of this DAG are the trending movies and their posters from the TMDb API. It runs on an weekly schedule and stores the data and images in specified folders.
-
