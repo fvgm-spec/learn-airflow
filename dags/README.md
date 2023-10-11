@@ -4,11 +4,15 @@
 
 Inside this folder you will find some sample dags made to be executed in te Airflow server, you just need to create a conda environment following the steps detailed in the main [README file](https://github.com/fvgm-spec/learn-airflow/blob/main/README.md) of this repo.
 
+</summary>
+
 ### **hello_world_dag.py**
 
 This dag corresponds to the `hello_world` sample in every programming languague, which is the first code executed to start learning the basics.
 
 Here a basic DAG is created that runs in an hourly basis by executing a `heloworld` function.
+
+</details>
 
 ### **reading_pageviews.py**
 
